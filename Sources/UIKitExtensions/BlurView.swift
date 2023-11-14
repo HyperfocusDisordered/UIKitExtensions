@@ -6,7 +6,7 @@
 //  Copyright © 2019 Данил Войдилов. All rights reserved.
 //
 
-#if canImport(UIKit)
+#if canImport(UIKit) && os(iOS)
 import UIKit
 
 open class BlurEffectView: UIVisualEffectView {

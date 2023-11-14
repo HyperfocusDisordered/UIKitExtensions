@@ -4,7 +4,7 @@
 //
 //  Created by Данил Войдилов on 20.05.2021.
 //
-
+#if canImport(QuartzCore)
 import QuartzCore
 
 extension CALayer {
@@ -16,3 +16,4 @@ extension CALayer {
 		([self] + superlayers).reversed().reduce(CATransform3DIdentity) { CATransform3DConcat($0, $1.transform) }
 	}
 }
+#endif

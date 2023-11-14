@@ -4,7 +4,7 @@
 //
 //  Created by Daniil on 10.08.2019.
 //
-#if canImport(UIKit)
+#if canImport(UIKit) && os(iOS)
 import UIKit
 
 extension UITableView {

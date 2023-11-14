@@ -12,7 +12,7 @@ let package = Package(
 		.library(name: "UIKitExtensions", targets: ["UIKitExtensions"]),
 	],
 	dependencies: [
-        .package(url: "https://github.com/HyperfocusDisordered/FoundationExtensions.git", revision: "5ecbfe0d3eccb97a8f1f570affcbc7b7673d9a96"),
+        .package(url: "https://github.com/HyperfocusDisordered/FoundationExtensions.git", revision: "f9c0b8d7f5b7fa5ba6592d84d511b414be0cde6b"),
     ],
 	targets: [
 		.target(name: "UIKitExtensions", dependencies: ["FoundationExtensions"])

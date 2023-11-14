@@ -6,6 +6,7 @@
 //  Copyright © 2018 Овчар Денис. All rights reserved.
 //
 
+#if canImport(UIKit) && os(iOS)
 import UIKit
 
 public extension UIView {
@@ -51,7 +52,11 @@ public extension UIView {
 	
 //	func path()
 }
+#endif
 
+
+#if canImport(UIKit)
+import Foundation
 //extension CGPoint {
     public func xy(_ x: CGFloat, _ y: CGFloat) -> CGPoint {
         .init(x: x, y: y)
@@ -65,3 +70,4 @@ public extension CGSize {
         CGSize(width: w, height: h)
     }
 }
+#endif

@@ -6,7 +6,7 @@
 //  Copyright © 2020 Daniil. All rights reserved.
 //
 
-#if canImport(UIKit)
+#if canImport(UIKit) && os(iOS)
 import UIKit
 
 extension UIStackView {

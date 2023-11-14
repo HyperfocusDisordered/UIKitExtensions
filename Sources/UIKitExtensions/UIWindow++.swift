@@ -5,7 +5,7 @@
 //  Created by Данил Войдилов on 20.05.2021.
 //
 
-#if canImport(UIKit)
+#if canImport(UIKit) && os(iOS)
 import UIKit
 
 extension UIWindow {

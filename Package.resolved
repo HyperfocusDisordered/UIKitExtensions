@@ -5,7 +5,25 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/HyperfocusDisordered/FoundationExtensions.git",
       "state" : {
-        "revision" : "5ecbfe0d3eccb97a8f1f570affcbc7b7673d9a96"
+        "revision" : "f9c0b8d7f5b7fa5ba6592d84d511b414be0cde6b"
+      }
+    },
+    {
+      "identity" : "simplecoders",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dankinsoid/SimpleCoders.git",
+      "state" : {
+        "revision" : "5039cf84204e134fa558ea20a1e440db8618e977",
+        "version" : "1.5.0"
+      }
+    },
+    {
+      "identity" : "vdcodable",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dankinsoid/VDCodable.git",
+      "state" : {
+        "revision" : "08870ba396424284c29deb41b25cec93d58e535e",
+        "version" : "2.13.0"
       }
     }
   ],
