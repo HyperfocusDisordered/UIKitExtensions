@@ -1,0 +1,13 @@
+{
+  "pins" : [
+    {
+      "identity" : "foundationextensions",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/HyperfocusDisordered/FoundationExtensions.git",
+      "state" : {
+        "revision" : "5ecbfe0d3eccb97a8f1f570affcbc7b7673d9a96"
+      }
+    }
+  ],
+  "version" : 2
+}
